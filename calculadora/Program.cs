@@ -9,7 +9,7 @@ namespace calculadora
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             ControlCalculadora control = new ControlCalculadora();
             control.Operacao();
             Console.ReadLine(); //Manter o prompt Aberto

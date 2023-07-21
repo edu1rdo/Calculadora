@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Schema;
 
 namespace calculadora
 {
@@ -51,7 +53,7 @@ namespace calculadora
             else
             {
                 return GetSetNum1 / GetSetNum2;
-            }   
+            }
         }//fim do método dividir
 
         public double Multiplicar()
@@ -66,7 +68,7 @@ namespace calculadora
 
         public string Raiz()
         {
-            string msg = "Raiz do primeiro número: "  + Math.Sqrt(GetSetNum1) +
+            string msg = "Raiz do primeiro número: " + Math.Sqrt(GetSetNum1) +
                          "\nRaiz do segundo número: " + Math.Sqrt(GetSetNum2);
             return msg;
         }//fim do método raiz
@@ -75,7 +77,7 @@ namespace calculadora
         {
             string resultado = "";
 
-            for(int i = 0;i <= 10; i++)
+            for (int i = 0; i <= 10; i++)
             {
                 resultado += "\n" + GetSetNum1 + " * " + i + " = " + (GetSetNum1 * i);
             }//fim do for
@@ -95,5 +97,23 @@ namespace calculadora
 
             return resultado;
         }//fim do método
+
+        public double ConvertEmxadecimal()
+        {
+            double resultado = 0;
+
+            
+
+
+
+
+            case
+
+
+
+        }
+
+
+    
     }//fim da classe
 }//fim do projeto

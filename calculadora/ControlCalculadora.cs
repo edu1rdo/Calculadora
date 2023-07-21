@@ -36,6 +36,7 @@ namespace calculadora
                               "\n5. Potência"                       +
                               "\n6. Raiz"                           +
                               "\n7. Tabuada"                        +
+                              "\n8.binario em decimal"              +
                               "\n\nEscolha uma das opções acima: ");
             int opcao = Convert.ToInt32(Console.ReadLine());
             return opcao;

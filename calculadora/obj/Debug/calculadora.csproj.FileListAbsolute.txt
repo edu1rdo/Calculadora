@@ -6,3 +6,11 @@ C:\Users\allan.ssilva4\source\repos\calculadora\calculadora\obj\Debug\calculador
 C:\Users\allan.ssilva4\source\repos\calculadora\calculadora\obj\Debug\calculadora.csproj.CoreCompileInputs.cache
 C:\Users\allan.ssilva4\source\repos\calculadora\calculadora\obj\Debug\calculadora.exe
 C:\Users\allan.ssilva4\source\repos\calculadora\calculadora\obj\Debug\calculadora.pdb
+C:\Users\eduardo.csilva52\Source\Repos\CalculadoraTI17N\calculadora\bin\Debug\calculadora.exe.config
+C:\Users\eduardo.csilva52\Source\Repos\CalculadoraTI17N\calculadora\bin\Debug\calculadora.exe
+C:\Users\eduardo.csilva52\Source\Repos\CalculadoraTI17N\calculadora\bin\Debug\calculadora.pdb
+C:\Users\eduardo.csilva52\Source\Repos\CalculadoraTI17N\calculadora\obj\Debug\calculadora.csproj.AssemblyReference.cache
+C:\Users\eduardo.csilva52\Source\Repos\CalculadoraTI17N\calculadora\obj\Debug\calculadora.csproj.SuggestedBindingRedirects.cache
+C:\Users\eduardo.csilva52\Source\Repos\CalculadoraTI17N\calculadora\obj\Debug\calculadora.csproj.CoreCompileInputs.cache
+C:\Users\eduardo.csilva52\Source\Repos\CalculadoraTI17N\calculadora\obj\Debug\calculadora.exe
+C:\Users\eduardo.csilva52\Source\Repos\CalculadoraTI17N\calculadora\obj\Debug\calculadora.pdb
