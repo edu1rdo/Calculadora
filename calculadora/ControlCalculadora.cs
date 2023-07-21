@@ -93,6 +93,12 @@ namespace calculadora
                     default:
                         Console.WriteLine("Opção escolhida não é valida");
                         break;
+                    case 8:
+                        Console.Write("Digite um número decimal: ");
+                        int decimalNumber = int.Parse(Console.ReadLine());
+
+                        string hexadecimalValue = DecimalToHexadecimal(decimalNumber);
+                        Console.WriteLine($"O número decimal {decimalNumber} é igual a {hexadecimalValue} em hexadecimal.");
                 }//fim do switch
                 
             } while(opcao != 0);//fim do Do...while

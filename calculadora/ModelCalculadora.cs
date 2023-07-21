@@ -84,36 +84,41 @@ namespace calculadora
 
             return resultado;
         }//fim do método
+       
 
-        public string TabuadaNum2()
+        //Método binario para decimal
+
+        public static int BinarioParaDecimal(string numeroBinario)
+
         {
-            string resultado = "";
 
-            //Início;Fim;Contagem
-            for (int i = 0; i <= 10; i++)
+            int expoente = 0;
+
+            int numero;
+
+            int soma = 0;
+
+            string numeroInvertido = ReverteString(numeroBinario);
+
+            for (int i = 0; i < numeroInvertido.Length; i++)
+
             {
-                resultado += "\n" + GetSetNum2 + " * " + i + " = " + (GetSetNum2 * i);
-            }//fim do for
 
-            return resultado;
-        }//fim do método
+                numero = Convert.ToInt32(numeroInvertido.Substring(i, 1));
 
-        public double ConvertEmxadecimal()
-        {
-            double resultado = 0;
+                soma += numero * (int)Math.Pow(2, expoente);
 
-            
+                expoente++;
 
+            }
 
+            return soma;
 
+        }//fim do método binario para decimal
 
-            case
+     
 
 
 
-        }
-
-
-    
     }//fim da classe
 }//fim do projeto
